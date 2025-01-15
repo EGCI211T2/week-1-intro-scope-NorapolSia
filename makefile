@@ -1,8 +1,9 @@
+DEPS = Noth
 compile: main.c 
-	 gcc main.c -o ming
+	 gcc main.c -o Noth
 
-run: ming
-	 ./ming
+run: Noth
+	 ./Noth
 
-clean: ming
-	 rm ming
+clean: Noth
+	 rm Noth
